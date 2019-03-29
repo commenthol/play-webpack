@@ -1,16 +1,19 @@
 {
   "name": "play-webpack",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "playground for webpack and public paths...",
+  "keywords": [],
+  "license": "Unlicense",
+  "author": "commenthol",
   "main": "",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack",
+    "build": "webpack -p",
+    "hs:root": "hs dist",
+    "hs:static": "hs _dist",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
@@ -23,6 +26,7 @@
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
     "lodash": "^4.17.11",
     "mini-css-extract-plugin": "^0.5.0",
     "postcss-loader": "^3.0.0",
