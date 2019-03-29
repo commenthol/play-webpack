@@ -1,0 +1,8 @@
+.Logo {
+  background-color: red;
+  background-image: url('../../static/img/ReactLogo.svg');
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  width: 100px;
+  height: 100px;
+}
